@@ -1318,7 +1318,7 @@ U 1 1 563E0D89
 P 10800 800
 F 0 "P2" H 10800 1050 50  0000 C CNN
 F 1 "CONN_01X04" V 10900 800 50  0000 C CNN
-F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53261-0471" H 10800 800 60  0001 C CNN
+F 2 "agg:SM04B-PASS" H 10800 800 60  0001 C CNN
 F 3 "" H 10800 800 60  0000 C CNN
 	1    10800 800 
 	1    0    0    -1  
@@ -1444,8 +1444,6 @@ Wire Wire Line
 	4100 3350 4700 3350
 Wire Wire Line
 	4600 3250 4350 3250
-Wire Wire Line
-	4900 3250 4900 3450
 Wire Wire Line
 	4100 3450 4800 3450
 Wire Wire Line
@@ -2083,4 +2081,8 @@ Wire Wire Line
 Wire Wire Line
 	7850 1400 7850 1600
 Connection ~ 7850 1600
+Wire Wire Line
+	5100 2850 5100 3450
+Wire Wire Line
+	5100 3450 4900 3450
 $EndSCHEMATC
